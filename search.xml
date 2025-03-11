@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>TSS</title>
+      <link href="/2025/03/11/TSS/"/>
+      <url>/2025/03/11/TSS/</url>
+      
+        <content type="html"><![CDATA[<h1 id="基于GUI和DB技术的单机售票系统实现方案"><a href="#基于GUI和DB技术的单机售票系统实现方案" class="headerlink" title="基于GUI和DB技术的单机售票系统实现方案"></a>基于GUI和DB技术的单机售票系统实现方案</h1><p>某运输公司决定为新的售票机开发车票销售终端软件TicketSellSys TSS。下图给出了TSS的销售面板示意图以及相关的控制部件。 </p><p><img src="https://github.com/user-attachments/assets/ead90caa-054a-4e74-8273-929f2dce6d00" alt="image"></p><p>售票机相关部件的作用如下所述:</p><p>①目的地键盘用来输人行程目的地的代码(例如，2U0表示总站)。</p><p>②乘客可以通过车票键盘选择车票种类(单程票、多次往返票和坐席种类)。</p><p>③继续&#x2F;取消键盘上的取消按钮用于取消购票过程，继续按钮允许乘客连续购买多张票。</p><p>④显示屏显示所有的系统输出和用户提示信息。</p><p>⑤插卡口接受MCard（现金卡），硬币口和纸币槽接受现金。</p><p>⑥打印机用于输出车票。</p><p>⑦所有部件均可实现自检并恢复到初始状态。</p><p>假设TSS是单机系统，不考虑联网和并发，请试着完成如下任务：</p><p>试着基于GUI技术（java web, java swing, python皆可）和DB技术，来实现该单机系统。</p><h2 id="任务1：基于之前所设计的系统逻辑架构图，完善各模块对应的类图设计。"><a href="#任务1：基于之前所设计的系统逻辑架构图，完善各模块对应的类图设计。" class="headerlink" title="任务1：基于之前所设计的系统逻辑架构图，完善各模块对应的类图设计。"></a>任务1：基于之前所设计的系统逻辑架构图，完善各模块对应的类图设计。</h2><p>使用的系统逻辑架构图：</p><p><img src="https://github.com/Yiaaaaa/picx-images-hosting/raw/master/image.2doulvexwq.webp" alt="image"></p><p>对应的类图设计：</p><p><img src="https://github.com/Yiaaaaa/picx-images-hosting/raw/master/library_00.60ue9e8gxr.webp" alt="library_00"></p><h2 id="任务2（大任务）：试着基于GUI技术（java-web-java-swing-python皆可）和DB技术，来实现该单机系统。"><a href="#任务2（大任务）：试着基于GUI技术（java-web-java-swing-python皆可）和DB技术，来实现该单机系统。" class="headerlink" title="任务2（大任务）：试着基于GUI技术（java web, java swing, python皆可）和DB技术，来实现该单机系统。"></a>任务2（大任务）：试着基于GUI技术（java web, java swing, python皆可）和DB技术，来实现该单机系统。</h2><h3 id="技术选型"><a href="#技术选型" class="headerlink" title="技术选型"></a>技术选型</h3><p>GUI框架：Java Swing（适合快速开发桌面应用）</p><p>数据库：SQLite（轻量级嵌入式数据库）</p><p>支付模拟：本地模拟第三方支付接口</p><h3 id="对应代码"><a href="#对应代码" class="headerlink" title="对应代码"></a>对应代码</h3><p><a href="https://github.com/Yiaaaaa/TSS">https://github.com/Yiaaaaa/TSS</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件体系结构与设计模式 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>条形图 Bar charts</title>
       <link href="/2025/02/13/%E6%9D%A1%E5%BD%A2%E5%9B%BE/"/>
       <url>/2025/02/13/%E6%9D%A1%E5%BD%A2%E5%9B%BE/</url>
